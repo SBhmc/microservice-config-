@@ -1,12 +1,11 @@
----
 spring:
   profiles:
     active: dev
 ---
 spring:
   profiles: dev
-port: 111
+name: aaadev
 ---
 spring:
   profiles: test
-port: 222
+name: aaatest
